@@ -63,3 +63,4 @@ crashlytics-build.properties
 /GoingUp/Logs
 /GoingUp/obj
 /GoingUp/UserSettings
+/GoingUp/.vsconfig

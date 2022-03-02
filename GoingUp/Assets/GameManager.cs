@@ -51,7 +51,5 @@ public class GameManager : MonoBehaviour
             ground.transform.DOMove(ground.transform.position + Vector3.up * 2f, 0.5f).SetDelay(i*0.1f);
         }
 
-
-
     }
 }

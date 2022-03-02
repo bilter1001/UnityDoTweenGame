@@ -310,6 +310,10 @@ PrefabInstance:
       propertyPath: step.y
       value: 7.5
       objectReference: {fileID: 0}
+    - target: {fileID: 645022184847451005, guid: c0d50d42061604b4da031181e7098fa0, type: 3}
+      propertyPath: whatIsGoal.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0d50d42061604b4da031181e7098fa0, type: 3}
 --- !u!1 &206811666 stripped
@@ -444,6 +448,7 @@ GameObject:
   - component: {fileID: 1430779472}
   - component: {fileID: 1430779471}
   - component: {fileID: 1430779470}
+  - component: {fileID: 1430779473}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -516,6 +521,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1430779473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430779469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436cf0e1c066edd40a4e72f596eda17e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1592789078
 GameObject:
   m_ObjectHideFlags: 0
